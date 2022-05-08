@@ -1,6 +1,6 @@
 Flask API with the following rest request types:
   GET
-  PUT
+  POST
   DELETE
 
 # To create the table and initialize the doctor table with initial values.
