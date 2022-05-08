@@ -1,8 +1,13 @@
+Flask API with the following rest requests:
+  GET
+  PUT
+  DELETE
+
 # To create the table and initialize the doctor table with initial values.
 # Note that this will also delete the old tables data.
 python3 createtable.py
 # To set up the server to enable REST requests
-python3 flask_api.py
+python3 flask_api_db.py
 # To check that the rest requests return the correct value in postman
   # Get a list of all doctors
     get http://127.0.0.1:5000/calendar
