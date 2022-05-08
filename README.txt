@@ -1,4 +1,4 @@
-Flask API with the following rest requests:
+Flask API with the following rest request types:
   GET
   PUT
   DELETE
