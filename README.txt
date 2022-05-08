@@ -20,3 +20,14 @@ python3 flask_api.py
 
 #Also assume no two patients have the same first and lastname.
 # If this assumption was incorrect, the patient id could be passed instead of the patients first and lastname as input to the delete request.
+
+Here is the versions of the libraries that I used.
+Python 3.6.8
+>>> import flask
+>>> flask.__version__
+'1.1.2'
+>>> import sqlite3
+>>> sqlite3.version
+'2.6.0'
+>>> sqlite3.sqlite_version
+'3.22.0'
